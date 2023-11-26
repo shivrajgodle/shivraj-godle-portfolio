@@ -16,6 +16,15 @@ export class ProfileService {
   projects:any = [
     {
       id: 1,
+      title: 'Chat-Application-NextJS',
+      desc: '',
+      livedemo: 'https://chat-application-nextjs-production.up.railway.app/',
+      githurl: 'https://github.com/shivrajgodle/Chat-Application-NextJS',
+      imgUrl: 'assets/images/chat-application.png',
+      tech: 'Next.js 13, React, Socket.io, Prisma, Tailwind, MySQL'
+    },
+    {
+      id: 2,
       title: 'Blogging Application Backend in Spring Boot',
       desc: '',
       livedemo: '',
@@ -25,7 +34,7 @@ export class ProfileService {
     },
 
     {
-      id: 2,
+      id: 3,
       title: 'Blogging Application UI in Angular',
       desc: '',
       livedemo: '',
@@ -36,7 +45,7 @@ export class ProfileService {
 
 
     {
-      id: 3,
+      id: 4,
       title: 'Shopping Portal',
       desc: '',
       livedemo: '',
@@ -44,9 +53,18 @@ export class ProfileService {
       imgUrl: 'assets/images/shopping.PNG',
       tech: 'Angular 12, Spring Boot, MySQL, NGRX , Angular Material'
     },
+    {
+      id: 5,
+      title: 'React-SpringBoot_Mysql-FullStack',
+      desc: '',
+      livedemo: '',
+      githurl: 'https://github.com/shivrajgodle/React-SpringBoot_Mysql-FullStack',
+      imgUrl: 'assets/images/react-springboot.png',
+      tech: 'React, Spring Boot, MySQL.'
+    },
 
     {
-      id: 4,
+      id: 6,
       title: 'Spring Security Auth 2.0',
       desc: '',
       livedemo: '',
@@ -57,7 +75,7 @@ export class ProfileService {
 
 
     {
-      id: 5,
+      id: 7,
       title: 'User Contact Microservice',
       desc: '',
       livedemo: '',
@@ -69,7 +87,7 @@ export class ProfileService {
 
 
     {
-      id: 6,
+      id: 8,
       title: 'Department - User Microservice',
       desc: '',
       livedemo: '',
@@ -81,7 +99,7 @@ export class ProfileService {
 
 
     {
-      id: 7,
+      id: 9,
       title: 'Stock Market Average Calculator',
       desc: '',
       livedemo: 'https://shivrajgodle.github.io/Stock-share-average-calculator/',
@@ -93,7 +111,7 @@ export class ProfileService {
 
 
     {
-      id: 8,
+      id: 10,
       title: 'COVID 19 vaccine Cowin Portal Clone ',
       desc: '',
       livedemo: 'https://shivrajgodle.github.io/cowinClone/',
@@ -104,7 +122,7 @@ export class ProfileService {
 
 
     {
-      id: 9,
+      id: 11,
       title: 'Static Website',
       desc: '',
       livedemo: 'https://shivrajgodle.github.io/website_templete/',
@@ -115,7 +133,7 @@ export class ProfileService {
 
 
     {
-      id: 10,
+      id: 12,
       title: 'ResultCo',
       desc: '',
       livedemo: '',
@@ -126,7 +144,7 @@ export class ProfileService {
 
 
     {
-      id: 11,
+      id: 13,
       title: 'Micronaut - Angular - MongoDb Application',
       desc: '',
       livedemo: '',
@@ -137,7 +155,7 @@ export class ProfileService {
 
 
     {
-      id: 12,
+      id: 14,
       title: 'Spring Boot - Microsoft Excel Export project',
       desc: '',
       livedemo: '',
@@ -148,13 +166,13 @@ export class ProfileService {
 
 
   ]
-  about2 = `Software Developer with 1.3+ years of experience .
+  about2 = `Software Developer with 2.4+ years of experience .
   Worked with Software Development Life Cycle(SDLC) and  agile methodologies .
   Expertise in Angular 2+ All versions , Javascript and UI with Responsive Designs .
   Have good understanding of Java, Spring Boot, Microservices, MongoDB, and MYSQL`
 
   about = "I love developing applications, that implies a positive impact on the world, with the help of new emerging technologies. I have a keen interest in Web Application Development. I consider myself a ‘forever student’ and I'm always eager to learn and implement new things."
-  resumeurl = "https://drive.google.com/file/d/1-LGKDefv2GDeJSVsv_53fqfqWrQSmuQz/view?usp=sharing"
+  resumeurl = "https://drive.google.com/file/d/1CQWVvy1s9yUQBN4Kq3I75aQuJtHZrQMM/view?pli=1"
 
   skillsData: any = [
     {
@@ -164,36 +182,41 @@ export class ProfileService {
     },
     {
       'id': '2',
+      'skill': 'React',
+      'progress': '85%'
+    },
+    {
+      'id': '3',
       'skill': 'Spring Boot',
       'progress': '80%'
     },
     {
-      'id': '3',
+      'id': '4',
       'skill': 'JAVA',
       'progress': '80%'
     },
     {
-      'id': '4',
+      'id': '5',
       'skill': 'SQL , MYSQL , MONGODB',
       'progress': '75%'
     },
     {
-      'id': '5',
+      'id': '6',
       'skill': 'MiCROSERVICES',
       'progress': '75%'
     },
     {
-      'id': '6',
+      'id': '7',
       'skill': 'JAVASCRIPT',
       'progress': '80%'
     },
     {
-      'id': '7',
+      'id': '8',
       'skill': 'Azure , AWS',
       'progress': '50%'
     },
     {
-      'id': '8',
+      'id': '9',
       'skill': 'Data Structure',
       'progress': '70%'
     }
@@ -233,6 +256,15 @@ Completed my Secondary school with 84%.`
     }
   ];
   exprienceData: any = [
+    {
+      id: 5,
+      company: 'Evince Development',
+      location: 'Ahmedabad',
+      timeline: 'Nov 2022 to Present',
+      role: 'Software Engineer',
+      work: 'Technologies: Angular , Spring Boot , RESTful WebServices , Postman , Spring Boot , Ng-Bootstrap , MySQL , .Working as a full stack developer , Responsible for handling the UI in Angular and Managing the api calls in Java Spring Boot. fixing bugs and adding new modifications in application. Designed and implemented dynamic user interfaces using Angular, enhancing user experience. Developed robust backend functionalities with Spring Boot, ensuring seamless data flow. Playing a key role in the projects success by delivering high-quality software solutions.'
+
+    },
     {
       id: 4,
       company: 'Anemoi Technologies',
